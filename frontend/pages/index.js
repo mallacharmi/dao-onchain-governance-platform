@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ethers } from "ethers";
 
-const GOVERNOR_ADDRESS = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512";
+const GOVERNOR_ADDRESS = "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9";
 
 const GOVERNOR_ABI = [
   "function propose(address[] targets,uint256[] values,bytes[] calldatas,string description) returns (uint256)",
